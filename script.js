@@ -45,7 +45,7 @@ let getMovie=()=>{
                 `;
             }
 
-            // if movie name dosen't exist
+            // if movie name dosen't exist.
             else{
                 result.innerHTML= ` <h3 class="msg">${data.Error}</h3>`;
             }
